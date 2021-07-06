@@ -1,3 +1,5 @@
+//documentation: https://sequelize.org/master/manual/query-interface.html
+
 import {DataTypes,Sequelize} from 'sequelize';
 import {sequelize} from '../db/config';
 

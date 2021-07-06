@@ -2,6 +2,9 @@ import { DataTypes, Model } from "sequelize";
 import { IPostAttr } from "../interface/IPostAttr";
 import { IPostCreateAttr } from "../interface/IPostCreateAttr";
 import {sequelize} from '../../../db/config';
+
+//documentation: https://sequelize.org/master/manual/typescript.html
+
 class Post extends Model<IPostAttr, IPostCreateAttr> implements IPostAttr{
     id!: number;
     content!: string;
